@@ -161,8 +161,6 @@ def predict_image(model, image_index, dataset):
     class_names = dataset.classes
 
     # Display the image
-    print('Name: Ganesh D')
-    print('Register Number: 212223240035')
     plt.imshow(image.squeeze(), cmap="gray")
     plt.title(f'Actual: {class_names[label]}\nPredicted: {class_names[predicted.item()]}')
     plt.axis("off")
@@ -195,7 +193,8 @@ predict_image(model, image_index=80, dataset=test_dataset)
 
 
 ### New Sample Data Prediction
-<img width="750" height="750" alt="image" src="https://github.com/user-attachments/assets/e186d4cc-d35a-4e7b-bc0d-0a5b202741a0" />
+<img width="750" height="750" alt="image" src="https://github.com/user-attachments/assets/3863a323-b1ca-408e-abcc-798106f6805f" />
+
 
 
 
