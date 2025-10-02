@@ -136,8 +136,8 @@ def test_model(model, test_loader):
     # Compute confusion matrix
     cm = confusion_matrix(all_labels, all_preds)
     plt.figure(figsize=(8, 6))
-    print('Name: Kanagavel A K')
-    print('Register Number: 212223230096')
+    print('Name: Ganesh D')
+    print('Register Number: 212223240035')
     sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=test_dataset.classes, yticklabels=test_dataset.classes)
     plt.xlabel('Predicted')
     plt.ylabel('Actual')
