@@ -136,8 +136,7 @@ def test_model(model, test_loader):
     # Compute confusion matrix
     cm = confusion_matrix(all_labels, all_preds)
     plt.figure(figsize=(8, 6))
-    print('Name: Ganesh D')
-    print('Register Number: 212223240035')
+
     sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=test_dataset.classes, yticklabels=test_dataset.classes)
     plt.xlabel('Predicted')
     plt.ylabel('Actual')
@@ -181,23 +180,22 @@ predict_image(model, image_index=80, dataset=test_dataset)
 ### OUTPUT
 
 ## Training Loss per Epoch
-<img width="461" height="72" alt="Screenshot 2025-09-23 135441" src="https://github.com/user-attachments/assets/ca0689f7-efed-44f0-b284-ed0926a2dbfc" />
+<img width="950" height="950" alt="image" src="https://github.com/user-attachments/assets/bdaa9b91-2a41-4f22-aff7-7e93d7998a54" />
 
 
 
 
 ## Confusion Matrix
-<img width="442" height="135" alt="image" src="https://github.com/user-attachments/assets/f125332a-4457-4e0c-90e6-d636b16b8d4c" />
+<img width="950" height="950" alt="image" src="https://github.com/user-attachments/assets/df2436b2-7578-4381-b190-44bbbc4367fa" />
 
-
-<img width="886" height="614" alt="image" src="https://github.com/user-attachments/assets/87f7cb72-cacf-4119-a917-f265fe82eb27" />
 
 ## Classification Report
-<img width="615" height="347" alt="image" src="https://github.com/user-attachments/assets/80f47e65-82ed-4515-9ad5-ee0aa1dfb60a" />
+<img width="950" height="950" alt="image" src="https://github.com/user-attachments/assets/46dd9e07-507d-4410-9f10-1e5d926b6bd3" />
+
 
 
 ### New Sample Data Prediction
-<img width="540" height="502" alt="image" src="https://github.com/user-attachments/assets/83f228c6-9da6-4a5e-8511-a93bdd2b121c" />
+<img width="950" height="950" alt="image" src="https://github.com/user-attachments/assets/e186d4cc-d35a-4e7b-bc0d-0a5b202741a0" />
 
 
 
